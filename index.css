@@ -1,0 +1,339 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    --mainColor: #000;
+}
+@media(max-width:400px){
+
+    body{
+        background-color: #e0e0e0;
+    }
+    .frame{
+        top: 80px;
+        box-shadow: none;
+    }
+   }
+section {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: #e0e0e0;
+    box-shadow: 10px 10px 10px #d7d7d7;
+    border-radius: 20px 20px 20px 80px;
+    scale: 1.2;
+}
+
+.face {
+    width: 90px;
+    height: 66px;
+    top: 118px;
+    left: 322px;
+    rotate: 320deg;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: inset 0px -1px 0px 0px gray;
+}
+.leg1,
+.leg2 {
+    position: relative;
+    width: 4px;
+    height: 70px;
+    rotate: 6deg;
+    background-color: var(--mainColor);
+}
+.leg1 {
+    top: 318px;
+    left: 238px;
+}
+.leg2 {
+    top: 195px;
+    left: 268px;
+}
+.leg1::after,
+.leg2::after {
+    content: "";
+    position: absolute;
+    top: 65px;
+    width: 8px;
+    height: 10px;
+    background-color: var(--mainColor);
+    border-radius: 50%;
+}
+.leg1::after,
+.leg2::after {
+    left: -2px;
+}
+
+.leg1-2,
+.leg2-2 {
+    position: relative;
+    width: 4px;
+    height: 45px;
+    rotate: 337deg;
+    background-color: var(--mainColor);
+}
+.leg1-2 {
+    top: 316px;
+    left: 243px;
+}
+.leg2-2 {
+    top: 192px;
+    left: 272px;
+}
+.finger1,
+.finger5 {
+    width: 62px;
+    height: 27px;
+    rotate: 86deg;
+    clip-path: polygon(50% 0%, 45% 100%, 55% 100%);
+    background-color: var(--mainColor);
+}
+.finger1 {
+    top: 412px;
+    left: 233px;
+}
+.finger5 {
+    top: 404px;
+    left: 263px;
+}
+.finger2,
+.finger6 {
+    width: 62px;
+    height: 27px;
+    rotate: 135deg;
+    clip-path: polygon(50% 0%, 45% 100%, 55% 100%);
+    background-color: var(--mainColor);
+}
+.finger2 {
+    top: 422px;
+    left: 230px;
+}
+.finger6 {
+    top: 414px;
+    left: 260px;
+}
+.finger3,
+.finger7 {
+    width: 62px;
+    height: 27px;
+    rotate: 178deg;
+    clip-path: polygon(50% 0%, 45% 100%, 55% 100%);
+    background-color: var(--mainColor);
+}
+.finger3 {
+    top: 424px;
+    left: 221px;
+}
+.finger7 {
+    top: 416px;
+    left: 251px;
+}
+.finger4,
+.finger8 {
+    width: 62px;
+    height: 27px;
+    rotate: 273deg;
+    clip-path: polygon(50% 0%, 45% 100%, 55% 100%);
+    background-color: var(--mainColor);
+}
+.finger4 {
+    top: 413px;
+    left: 213px;
+}
+.finger8 {
+    top: 405px;
+    left: 243px;
+}
+
+.body1 {
+    width: 127px;
+    height: 47px;
+    top: 171px;
+    left: 292px;
+    rotate: 287deg;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.body2 {
+    width: 127px;
+    height: 41px;
+    top: 202px;
+    left: 276px;
+    rotate: 306deg;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.body3 {
+    position: absolute;
+    top: 233px;
+    left: 180px;
+    width: 220px;
+    height: 200px;
+    -webkit-clip-path: circle(50% at 50% 0);
+    clip-path: circle(50% at 50% 0);
+    background-color: #fcfffc;
+    rotate: 340deg;
+}
+.wing {
+    position: absolute;
+    top: 213px;
+    left: 190px;
+    width: 129px;
+    height: 111px;
+    border-radius: 127% 1% 48% 124% / 121% 37% 131% 0%;
+    background-color: transparent;
+    rotate: 204deg;
+    box-shadow: inset 3px 2px 3px 0px #c5c0c0;
+}
+.beak1 {
+    width: 90px;
+    height: 90px;
+    top: 66px;
+    left: 380px;
+    rotate: 61deg;
+    clip-path: polygon(50% 0%, 45% 100%, 55% 100%);
+    background-color: #000;
+}
+.beak2 {
+    width: 90px;
+    height: 90px;
+    top: 74.5px;
+    left: 387px;
+    rotate: 70deg;
+    clip-path: polygon(50% 0%, 45% 100%, 55% 100%);
+    background-color: #000;
+}
+.eye {
+    width: 11px;
+    height: 11px;
+    top: 135px;
+    left: 366px;
+    border-radius: 50%;
+    background-color: #000;
+}
+div {
+    position: absolute;
+    background-color: #fff;
+}
+.div1 {
+    width: 42px;
+    height: 18px;
+    top: 113px;
+    left: 367px;
+    border-radius: 50%;
+    box-shadow: inset 3px 2px 2px 0px var(--mainColor);
+    rotate: 30deg;
+}
+.div2 {
+    width: 27px;
+    height: 13px;
+    top: 114px;
+    left: 347px;
+    border-radius: 50%;
+    box-shadow: inset 3px 2px 2px 0px var(--mainColor);
+    rotate: 8deg;
+}
+.div3 {
+    width: 27px;
+    height: 13px;
+    top: 124px;
+    left: 328px;
+    border-radius: 50%;
+    box-shadow: inset 3px 2px 2px 0px var(--mainColor);
+    rotate: 334deg;
+}
+.div4 {
+    width: 27px;
+    height: 13px;
+    top: 141px;
+    left: 316px;
+    border-radius: 50%;
+    box-shadow: inset 3px 2px 2px 0px var(--mainColor);
+    rotate: 314deg;
+}
+.div5 {
+    width: 27px;
+    height: 13px;
+    top: 161px;
+    left: 310px;
+    border-radius: 50%;
+    box-shadow: inset 3px 2px 2px 0px var(--mainColor);
+    rotate: 298deg;
+}
+.div6 {
+    width: 27px;
+    height: 13px;
+    top: 181px;
+    left: 310px;
+    border-radius: 50%;
+    box-shadow: inset 3px 2px 2px 0px var(--mainColor);
+    rotate: 298deg;
+}
+
+.tail , .cover{
+    width: 115px;
+    height: 90px;
+    rotate: 155deg;
+    clip-path: polygon(50% 0%, 43% 100%, 55% 100%);
+    background-color: #fff;
+    
+}
+.tail1 {
+    top: 198px;
+    left: 90px;
+}
+.tail2 {
+    top: 197px;
+    left: 103px;
+    rotate: 173deg;
+}
+.tail3 {
+    top: 197px;
+    left: 114px;
+    rotate: 188deg;
+}
+.tail4 {
+    top: 206px;
+    left: 80px;
+    rotate: 137deg;
+}
+.tail5 {
+    top: 217px;
+    left: 72px;
+    rotate: 116deg;
+}
+
+.tail-end {
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.tail-end1 {
+    top: 190px;
+    left: 172px;
+    box-shadow: inset 0px 3px 1px 0px var(--mainColor);
+}
+.tail-end2 {
+    top: 191px;
+    left: 149px;
+    box-shadow: inset 1px 3px 1px 0px var(--mainColor);
+}
+.tail-end3 {
+    top: 196px;
+    left: 123px;
+    box-shadow: inset 2px 3px 1px 0px var(--mainColor);
+}
+.tail-end4 {
+    top: 212px;
+    left: 102px;
+    box-shadow: inset 3px 2px 1px 0px var(--mainColor);
+}
+.tail-end5 {
+    top: 234px;
+    left: 82px;
+    box-shadow: inset 3px 1px 1px 0px var(--mainColor);
+}
