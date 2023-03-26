@@ -15,7 +15,7 @@ body {
     .frame{
         
         box-shadow: none;
-        scale: .7;
+        scale: .82;
     }
     .frame div{
         translate: -100px -100px;
