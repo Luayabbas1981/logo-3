@@ -8,11 +8,16 @@ body {
 @media(max-width:400px){
 
     body{
+
         background-color: #e0e0e0;
     }
     .frame{
-        top: 80px;
+        
         box-shadow: none;
+        scale: .7;
+    }
+    .frame div{
+        translate: -100px -100px;
     }
    }
 section {
