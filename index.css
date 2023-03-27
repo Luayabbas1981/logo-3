@@ -40,11 +40,11 @@ section {
 }
 
 .face {
-    width: 90px;
-    height: 66px;
-    top: 118px;
-    left: 322px;
-    rotate: 320deg;
+    width: 83px;
+    height: 56px;
+    top: 120px;
+    left: 328px;
+    rotate: 328deg;
     border-radius: 50%;
     background-color: #fff;
     box-shadow: inset 0px -1px 0px 0px gray;
@@ -271,7 +271,7 @@ div {
     width: 27px;
     height: 13px;
     top: 161px;
-    left: 310px;
+    left: 312px;
     border-radius: 50%;
     box-shadow: inset 3px 2px 2px 0px var(--mainColor);
     rotate: 298deg;
@@ -279,8 +279,8 @@ div {
 .div6 {
     width: 27px;
     height: 13px;
-    top: 181px;
-    left: 310px;
+    top: 173px;
+    left: 316px;
     border-radius: 50%;
     box-shadow: inset 3px 2px 2px 0px var(--mainColor);
     rotate: 298deg;
