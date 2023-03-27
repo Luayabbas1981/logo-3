@@ -9,11 +9,15 @@ body {
 @media(max-width:400px){
 
     body{
-
-        background-color: #e0e0e0;
+        background: linear-gradient(
+       248deg,
+       #a19f9f -73%,
+       #ffffff 150%
+     );
+        
     }
     .frame{
-        
+        background: none;
         box-shadow: none;
         scale: .82;
     }
