@@ -180,7 +180,6 @@ section {
     background-color: #fff;
 }
 .body3 {
-    position: absolute;
     top: 233px;
     left: 180px;
     width: 220px;
@@ -230,6 +229,7 @@ section {
 div {
     position: absolute;
     background-color: #fff;
+    
 }
 .div1 {
     width: 42px;
@@ -325,7 +325,16 @@ div {
     background-color: #fff;
     border-radius: 50%;
 }
-
+.tail-end0{
+    top: 253px;
+    left: 152px;
+    width: 20px;
+    height: 20px;
+    -webkit-clip-path: circle(50% at 50% 0);
+    clip-path: circle(50% at 50% 0);
+    background-color: #fcfffc;
+    rotate: 161deg;
+}
 .tail-end1 {
     top: 190px;
     left: 172px;
