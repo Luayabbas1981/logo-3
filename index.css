@@ -324,6 +324,7 @@ div {
     height: 14px;
     background-color: #fff;
     border-radius: 50%;
+    box-shadow: inset 0px 3px 1px 0px black, inset 0px 6px 2px 0px #aaaaaa;
 }
 .tail-end0{
     top: 253px;
@@ -338,25 +339,25 @@ div {
 .tail-end1 {
     top: 190px;
     left: 171.5px;
-    box-shadow: inset 0px 3px 1px 0px black, inset 0px 6px 2px 0px #aaaaaa;
+
 }
 .tail-end2 {
     top: 191px;
     left: 149px;
-    box-shadow: inset 1px 3px 1px 0px black, inset 1px 6px 2px 0px #aaaaaa;
+    rotate: 353deg;
 }
 .tail-end3 {
     top: 196px;
     left: 122.7px;
-    box-shadow: inset 2px 3px 1px 0px black, inset 3px 6px 2px 0px #aaaaaa;
+    rotate: 331deg;
 }
 .tail-end4 {
     top: 212px;
     left: 102px;
-    box-shadow: inset 2px 2px 1px 0px black, inset 4px 4px 2px 0px #aaaaaa;
+    rotate: 317deg;
 }
 .tail-end5 {
     top: 234.5px;
     left: 82px;
-    box-shadow: inset 3px 1px 1px 0px black, inset 5px 2px 2px 0px #aaaaaa;
+    rotate: 297deg;
 }
