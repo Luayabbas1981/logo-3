@@ -237,7 +237,7 @@ div {
     top: 113px;
     left: 367px;
     border-radius: 50%;
-    box-shadow: inset 3px 2px 2px 0px var(--mainColor);
+    box-shadow: inset 3px 2px 2px 0px black, inset 6px 4px 3px 0px rgb(171, 170, 170);
     rotate: 30deg;
 }
 .div2 {
@@ -246,7 +246,7 @@ div {
     top: 114px;
     left: 347px;
     border-radius: 50%;
-    box-shadow: inset 3px 2px 2px 0px var(--mainColor);
+    box-shadow: inset 3px 2px 2px 0px black, inset 6px 4px 3px 0px rgb(171, 170, 170);
     rotate: 8deg;
 }
 .div3 {
@@ -255,7 +255,7 @@ div {
     top: 124px;
     left: 328px;
     border-radius: 50%;
-    box-shadow: inset 3px 2px 2px 0px var(--mainColor);
+    box-shadow: inset 3px 2px 2px 0px black, inset 6px 4px 3px 0px rgb(171, 170, 170);
     rotate: 334deg;
 }
 .div4 {
@@ -264,7 +264,7 @@ div {
     top: 141px;
     left: 316px;
     border-radius: 50%;
-    box-shadow: inset 3px 2px 2px 0px var(--mainColor);
+    box-shadow: inset 3px 2px 2px 0px black, inset 6px 4px 3px 0px #abaaaa;
     rotate: 314deg;
 }
 .div5 {
@@ -273,7 +273,7 @@ div {
     top: 161px;
     left: 312px;
     border-radius: 50%;
-    box-shadow: inset 3px 2px 2px 0px var(--mainColor);
+    box-shadow: inset 3px 2px 2px 0px black, inset 6px 4px 3px 0px rgb(171, 170, 170);
     rotate: 298deg;
 }
 .div6 {
@@ -282,7 +282,7 @@ div {
     top: 173px;
     left: 316px;
     border-radius: 50%;
-    box-shadow: inset 3px 2px 2px 0px var(--mainColor);
+    box-shadow: inset 3px 2px 2px 0px black, inset 6px 4px 3px 0px rgb(171, 170, 170);
     rotate: 298deg;
 }
 
@@ -320,7 +320,7 @@ div {
 }
 
 .tail-end {
-    width: 14px;
+    width: 14.5px;
     height: 14px;
     background-color: #fff;
     border-radius: 50%;
@@ -337,26 +337,26 @@ div {
 }
 .tail-end1 {
     top: 190px;
-    left: 172px;
-    box-shadow: inset 0px 3px 1px 0px var(--mainColor);
+    left: 171.5px;
+    box-shadow: inset 0px 3px 1px 0px black, inset 0px 6px 2px 0px gray;
 }
 .tail-end2 {
     top: 191px;
     left: 149px;
-    box-shadow: inset 1px 3px 1px 0px var(--mainColor);
+    box-shadow: inset 1px 3px 1px 0px black, inset 1px 6px 2px 0px gray;
 }
 .tail-end3 {
     top: 196px;
-    left: 123px;
-    box-shadow: inset 2px 3px 1px 0px var(--mainColor);
+    left: 122.7px;
+    box-shadow: inset 2px 3px 1px 0px black, inset 3px 6px 2px 0px gray;
 }
 .tail-end4 {
     top: 212px;
     left: 102px;
-    box-shadow: inset 3px 2px 1px 0px var(--mainColor);
+    box-shadow: inset 2px 2px 1px 0px black, inset 4px 4px 2px 0px gray;
 }
 .tail-end5 {
-    top: 234px;
+    top: 234.5px;
     left: 82px;
-    box-shadow: inset 3px 1px 1px 0px var(--mainColor);
+    box-shadow: inset 3px 1px 1px 0px black, inset 5px 2px 2px 0px gray;
 }
