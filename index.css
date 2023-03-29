@@ -198,7 +198,7 @@ section {
     border-radius: 127% 1% 48% 124% / 121% 37% 131% 0%;
     background-color: transparent;
     rotate: 204deg;
-    box-shadow: inset 3px 2px 3px 0px #c5c0c0;
+    box-shadow: -4px -3px 5px 0px #a9a8a8, -3px -3px 3px 0px #c2c1c1;
 }
 .beak1 {
     width: 90px;
@@ -261,7 +261,7 @@ div {
 .div4 {
     width: 27px;
     height: 13px;
-    top: 141px;
+    top: 140px;
     left: 316px;
     border-radius: 50%;
     box-shadow: inset 3px 2px 2px 0px black, inset 6px 4px 3px 0px #abaaaa;
@@ -270,20 +270,20 @@ div {
 .div5 {
     width: 27px;
     height: 13px;
-    top: 161px;
+    top: 157px;
     left: 312px;
     border-radius: 50%;
     box-shadow: inset 3px 2px 2px 0px black, inset 6px 4px 3px 0px rgb(171, 170, 170);
-    rotate: 298deg;
+    rotate: 313deg;
 }
 .div6 {
     width: 27px;
     height: 13px;
-    top: 173px;
-    left: 316px;
+    top: 169px;
+    left: 315px;
     border-radius: 50%;
     box-shadow: inset 3px 2px 2px 0px black, inset 6px 4px 3px 0px rgb(171, 170, 170);
-    rotate: 298deg;
+    rotate: 306deg;
 }
 
 .tail , .cover{
