@@ -37,6 +37,7 @@ section {
     box-shadow: 10px 10px 10px #d7d7d7;
     border-radius: 20px 20px 20px 80px;
     scale: 1.2;
+   overflow: hidden;
 }
 
 .face {
@@ -198,7 +199,8 @@ section {
     border-radius: 127% 1% 48% 124% / 121% 37% 131% 0%;
     background-color: transparent;
     rotate: 204deg;
-    box-shadow: -3px -5px 5px 0px #cbcaca, -3px -6px 3px 0px #cfcece;
+    box-shadow: -3px -5px 2px 0px #cbcaca, -3px -6px 2px 0px #e3e2e2;
+   
 }
 .beak1 {
     width: 90px;
