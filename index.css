@@ -6,7 +6,7 @@ body {
     --mainColor: #000;
     overflow: hidden;
 }
-@media(max-width:400px){
+@media(max-width:420px){
 
     body{
         background: linear-gradient(
@@ -37,7 +37,7 @@ section {
     box-shadow: 10px 10px 10px #d7d7d7;
     border-radius: 20px 20px 20px 80px;
     scale: 1.2;
-   overflow: hidden;
+   
 }
 
 .face {
