@@ -335,6 +335,17 @@ div {
     height: 20px;
     -webkit-clip-path: circle(50% at 50% 0);
     clip-path: circle(50% at 50% 0);
+    background-color: #868886;
+    rotate: 161deg;
+    
+}
+.tail-end0-1{
+    top: 254.3px;
+    left: 154.3px;
+    width: 20px;
+    height: 20px;
+    -webkit-clip-path: circle(50% at 50% 0);
+    clip-path: circle(50% at 50% 0);
     background-color: #fcfffc;
     rotate: 161deg;
 }
