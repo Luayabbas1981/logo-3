@@ -5,13 +5,14 @@ body {
     align-items: center;
     --mainColor: #000;
     overflow: hidden;
+    background-color: var(--bc);
 }
 @media(max-width:420px){
 
     body{
         background: linear-gradient(
        248deg,
-       #a19f9f -73%,
+      var(--bc) -73%,
        #ffffff 150%
      );
         
